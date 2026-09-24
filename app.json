@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.megan415399.QRATT"
     },
     "web": {
       "output": "static",
@@ -42,6 +43,12 @@
     ],
     "experiments": {
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "30e9d2c0-e86c-44d9-98d1-b4c2260d01ba"
+      }
     }
   }
 }
